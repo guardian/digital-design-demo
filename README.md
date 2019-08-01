@@ -6,7 +6,7 @@ A demo repository
 ### Setting up SSH
 Add commands here....
 
-### digital-design-demo
+### Basic Git Commands
 Add basic git commnads here...
 
 
