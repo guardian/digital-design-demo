@@ -1,12 +1,19 @@
-// Seal donation message
-// alert('We urgently need more seals.');
+//alert hello world
+// alert('hello world');
 
-console.log("If you are reading this, we urgently need more seals");
+//console log
+console.log('Zef is awesome');
 
-document.querySelector('header-title');
+//get the element you want to do something with
+document.querySelector('.header-title');
 
+//save that element
 var title = document.querySelector('.header-title');
 
-setTimeout(function() {
-    title.classList.add('approved');
-}, 1000)
+//console log the element so you can see it in the browser
+console.log(title);
+
+//add a class to the element to make it do something
+setTimeout(function(){
+  title.classList.add('animate');
+}, 2000);

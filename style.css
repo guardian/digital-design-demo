@@ -1,76 +1,70 @@
 body {
-    margin: 0;
-    background: lightblue;
+  margin: 0;
+  animation-name: colour;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 header {
-    background: lime;
-    animation-name: strobe;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    color: blue;
-    font-family: fantasy;
-    padding: 6px 20px 12px 20px;
-    text-align: center;
+  background-color: tomato;
+  padding: 6px 20px 12px 20px;
+  font-family: sans-serif;
+  color: blue;
 }
 
 h1 {
-    color: peachpuff;
-    font-size: 100px;
-    line-height: auto;
-    margin: 0;
-    padding: 6px 0 0;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  color: yellow;
 }
+
 
 header .header-title h1 {
-    color: red;
-}
-
-h2 {
-    margin-bottom: 42px;
+  color: black;
 }
 
 .header-title {
-    /* width: 100px; */
-    transition: color .5s ease-in;
+  transition: transform 10s ease-in-out;
 }
 
-.header-title.approved {
-    color: yellow;
+.header-title.animate {
+  transform: scale(2);
+  transform-origin: center;
 }
 
-.seal {
-    margin: 10px 0;
+.boris-head-wrapper {
+  width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
-.seal-wrapper {
-    width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 20px;
+.boris-head-wrapper h1 {
+  font-size: 28vw;
+  margin-top: 20vw;
+  position: absolute;
+  width: 100%;
+  z-index: -10;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: tomato;
+  text-align: center;
 }
 
-.seal-wrapper img {
-    background: white;
-    border: 4px dashed lightblue;
-    width: 100%;
+.boris-head-wrapper img {
+  width: 100%;
 }
 
-footer { 
-    text-align: center;
-}
-
-@keyframes strobe {
-    0% {
-        background: lime;
-    }
-    
-    50% {
-        background: dodgerblue;
-    }
-
-    100% {
-        background: cornflowerblue;
-    }
+@keyframes colour {
+  0% {
+    background-color: tomato;
+  }
+  50% {
+    background-color: purple;
+  }
+  100% {
+    background-color: tomato;
+  }
 }
