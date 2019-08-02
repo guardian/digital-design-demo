@@ -27,7 +27,7 @@ Create a new branch named "my_branch" and switch to using it (Make a personal ve
 
 `git checkout -b <my_branch>`
 
-Add you branch to the remote repo so it's available in the ☁️ (Add your duplicate to the ☁️)
+Add you branch to the remote repo so it's available in the ☁️ (Add your version to the ☁️)
 
 `git push origin <my_branch>`
 
