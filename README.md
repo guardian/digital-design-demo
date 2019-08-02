@@ -32,9 +32,13 @@ Add you branch to the remote repo so it's available in the ☁️
 
 `git push origin my_branch`
 
-Add your changes to your branch
+Gather all your changes to the project
 
-`git commit -a -m "some message about whats changed"`
+`git add .`
+
+Commit your changes to your branch
+
+`git commit -m "some message about whats changed"`
 
 ---
 
