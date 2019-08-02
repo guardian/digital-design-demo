@@ -16,6 +16,8 @@ Copy your ssh key
 
 Go to Github...
 
+---
+
 ### Basic Git Commands
 
 Clone a repo (make a copy)
@@ -33,6 +35,8 @@ Add you branch to the remote repo so it's available in the ☁️
 Add your changes to your branch
 
 `git commit -a -m "some message about whats changed"`
+
+---
 
 ### Helpful tools
 
