@@ -43,7 +43,7 @@ Commit your changes to your branch (Save your version)
 
 ### Helpful tools
 
-List some helpful tools...
+A  few helpful tools...
 
 [Getting started with Git](https://rogerdudler.github.io/git-guide/)
 
