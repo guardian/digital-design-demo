@@ -25,11 +25,11 @@ Clone a repo (make a copy)
 
 Create a new branch named "my_branch" and switch to using it (Make a personal version) 
 
-`git checkout -b my_branch`
+`git checkout -b <my_branch>`
 
 Add you branch to the remote repo so it's available in the ☁️ (Add your duplicate to the ☁️)
 
-`git push origin my_branch`
+`git push origin <my_branch>`
 
 Gather all your changes to the project
 
