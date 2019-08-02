@@ -9,7 +9,7 @@ Run this command in Terminal to create an ssh key
 
 `ssh-keygen -t rsa`
 
-The this one which copies your ssh key to the clipboard
+The this one which copies your ssh key to your clipboard
 
 `pbcopy < ~/.ssh/id_rsa.pub`
 
