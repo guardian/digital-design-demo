@@ -1,32 +1,76 @@
 body {
     margin: 0;
+    background: lightblue;
 }
 
 header {
-    background-color: #000;
+    background: lime;
+    animation-name: strobe;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    color: blue;
+    font-family: fantasy;
     padding: 6px 20px 12px 20px;
-    font-family: sans-serif;
-    color: #fff;
+    text-align: center;
 }
 
 h1 {
-    font-size: 50px;
-    line-height: 25px;
-    color: inherit;
-    text-transform: lowercase;
-    color: pink;
+    color: peachpuff;
+    font-size: 100px;
+    line-height: auto;
+    margin: 0;
+    padding: 6px 0 0;
 }
 
 header .header-title h1 {
-    color: royalblue; 
+    color: red;
 }
 
-.content-wrapper {
-    width: 800px;
+h2 {
+    margin-bottom: 42px;
+}
+
+.header-title {
+    /* width: 100px; */
+    transition: color .5s ease-in;
+}
+
+.header-title.approved {
+    color: yellow;
+}
+
+.seal {
+    margin: 10px 0;
+}
+
+.seal-wrapper {
+    width: 1300px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    padding: 20px;
 }
 
-.content-wrapper img {
+.seal-wrapper img {
+    background: white;
+    border: 4px dashed lightblue;
     width: 100%;
+}
+
+footer { 
+    text-align: center;
+}
+
+@keyframes strobe {
+    0% {
+        background: lime;
+    }
+    
+    50% {
+        background: dodgerblue;
+    }
+
+    100% {
+        background: cornflowerblue;
+    }
 }
